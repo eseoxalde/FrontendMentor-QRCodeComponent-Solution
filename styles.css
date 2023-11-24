@@ -1,0 +1,56 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  max-width: 1440px;
+  font-size: 15px;
+   font-family: Outfit;
+}
+
+.container {
+  padding: 5px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.qr {
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  text-align: center;
+}
+
+.qr img {
+  max-width: 300px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.qr p {
+	max-width: 300px;
+	overflow: hidden;
+  margin: 5px 0;
+  
+}
+.secundario {
+	color:  hsl(220, 15%, 55%)
+}
+.principal {
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size:20px;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    max-width: 350px;
+  }
+  .qr img{
+    max-width: 200px;
+  }
+  .qr p{
+    max-width: 200px;
+  }
+}
